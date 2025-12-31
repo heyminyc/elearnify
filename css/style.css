@@ -109,6 +109,19 @@ article {
   margin-bottom: 2rem;
 }
 
+/* ! COURSE PAGE */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1rem;
+}
+
+.courses-list h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
 /* FOOTER STYLE */
 footer {
   text-align: center;
