@@ -1,0 +1,116 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+/* WEBSITE CONTAINER */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* HEADER STYLE */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links {
+  color: black;
+}
+
+.register-btn {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 2.5rem;
+  border-radius: 2rem;
+}
+
+.register-btn:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+}
+
+/* HERO STYLING */
+.hero {
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero a {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 2.5rem;
+  margin: 2rem auto;
+}
+
+/* TOP COURSE STYLE */
+section {
+  border: 1px solid black;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.courses-ctn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+article {
+  border: 1px solid black;
+  padding: 4rem 2rem;
+  border-radius: 12px;
+}
+
+/* WHY US STYLE */
+.why-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: disc;
+  margin-bottom: 2rem;
+}
+
+/* FOOTER STYLE */
+footer {
+  text-align: center;
+  border-top: 1px solid black;
+}
