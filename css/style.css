@@ -127,3 +127,71 @@ footer {
   text-align: center;
   border-top: 1px solid black;
 }
+
+/* ! INSTRUCTORS LIST */
+.instructors-list h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.instructors-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem;
+}
+.instructors-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.instructors-card figure img {
+  border-radius: 50%;
+}
+
+/* ! TESTIMONIALS STYLE */
+.testimonials h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* ! REGISTER STYLE */
+.form-heading {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.register-form {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+}
+
+fieldset {
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+  border: none;
+}
+
+label,
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  display: block;
+}
+
+.agree {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+button[type="submit"] {
+  border: 1px solid black;
+  padding: 1rem 3rem;
+  border-radius: 32px;
+  display: block;
+  margin: auto;
+}
