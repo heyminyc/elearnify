@@ -1,3 +1,6 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
+
 /* RESET */
 * {
   margin: 0;
@@ -6,6 +9,8 @@
 
 body {
   line-height: 1.6;
+  background-color: #ebebeb;
+  font-family: "Arimo", sans-serif;
 }
 
 a {
@@ -28,13 +33,19 @@ main {
 
 /* HEADER STYLE */
 header {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 .navbar ul {
+  background-color: #f8f8f8;
+  padding: 12px 24px;
+  border-radius: 10px;
   display: flex;
   gap: 1rem;
 }
@@ -43,9 +54,18 @@ header {
   color: black;
 }
 
+.contact-link {
+  background-color: #f66c40;
+  padding: 8px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
 .register-btn {
-  background-color: black;
-  color: white;
+  background-color: #f66c40;
+  color: #1c1d1f;
+  text-transform: uppercase;
+  font-weight: bold;
   padding: 0.5rem 2.5rem;
   border-radius: 2rem;
 }
@@ -53,12 +73,12 @@ header {
 .register-btn:hover {
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* HERO STYLING */
 .hero {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   text-align: center;
   margin-top: 2rem;
 }
@@ -72,12 +92,13 @@ header {
   background-color: black;
   color: white;
   padding: 0.5rem 2.5rem;
-  margin: 2rem auto;
+  margin: 2rem 2rem;
+  border-radius: 32px;
 }
 
 /* TOP COURSE STYLE */
 section {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 section h2 {
@@ -105,8 +126,9 @@ article {
   display: flex;
   flex-direction: column;
   align-items: center;
-  list-style-type: disc;
+  /* list-style-type: disc; */
   margin-bottom: 2rem;
+  font-size: 24px;
 }
 
 /* ! COURSE PAGE */
@@ -182,6 +204,20 @@ input[type="password"] {
   display: block;
 }
 
+label {
+  font-size: 18px;
+  margin-left: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 12px 32px;
+  border-radius: 24px;
+  border: 1px solid #1c1d1f;
+  margin-bottom: 12px;
+}
+
 .agree {
   margin: auto;
   text-align: center;
@@ -194,4 +230,15 @@ button[type="submit"] {
   border-radius: 32px;
   display: block;
   margin: auto;
+}
+
+/* ! CONTACT STYLE */
+.contact-heading {
+  text-align: center;
+  margin-block: 2rem;
+}
+
+.contact-form {
+  border: 1px solid #1c1d1f;
+  padding: 1rem 2rem;
 }
